@@ -1,4 +1,4 @@
 go-play-ground
 ==============
 
-testing with go
+testing with go. Playing with gobook
