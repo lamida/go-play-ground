@@ -1,0 +1,20 @@
+package main
+
+import (
+	"fmt"
+	"strings"
+)
+
+func main(){
+	fmt.Println(
+		// true
+		strings.Contains("test", "est"),
+		// 2	
+		strings.Count("test", "t"),
+		// true
+		strings.HasPrefix("test", "te"),
+		// == "aaaaa"
+		strings.Repeat("a", 5),
+	)
+}
+
